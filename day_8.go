@@ -5,7 +5,7 @@ import (
 	"unicode"
 )
 
-func incrementString(strng string) string {
+func IncrementString(strng string) string {
 	if len(strng) == 0 {
 		return strng
 	}
